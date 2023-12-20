@@ -8,3 +8,5 @@ import androidx.room.PrimaryKey
 class Note(@ColumnInfo (name="text")val text:String) {
     @PrimaryKey(autoGenerate = true)var id=0
 }
+
+//this will be my demo commit
